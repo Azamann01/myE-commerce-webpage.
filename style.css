@@ -1,0 +1,192 @@
+/* link for font  */
+@import url("https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,600;0,700;1,100;1,300;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  font-family: "poppins", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 100%;
+}
+
+.head-logo {
+  padding: 0 20px 40px;
+}
+.head-logo h1 {
+  font-family: "miniver";
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(214, 170, 60);
+}
+.header-segment {
+  position: sticky;
+}
+
+.head-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  background-color: rgb(139, 46, 46);
+  left: 0;
+  right: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar li {
+  list-style: none;
+  padding: 0 30px;
+  position: relative;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(214, 170, 60);
+  transition: 0.3s ease;
+}
+
+.icon-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.menu-list {
+  display: inline-flex;
+}
+.menu-list li a:hover {
+  color: black;
+}
+
+.hero-section {
+  background: url(Images/Home-background/christmas-red-background-realistic-3d-600nw-2223615557.webp);
+  height: 70vh;
+  width: 100%;
+  align-items: center;
+  display: block;
+  justify-content: center;
+  padding: 90px 80px;
+}
+
+.hero-list h1,
+h3,
+p {
+  color: white;
+  font-family: sans-serif;
+  padding-bottom: 12px;
+}
+
+.hero-list h2 {
+  color: gold;
+  text-transform: capitalize;
+}
+
+#hero-text a {
+  color: #fff;
+  font-size: 12px;
+}
+#hero-text a:hover {
+  color: #ffffffb8;
+}
+
+.btn {
+  height: 5vh;
+  width: 20%;
+  border: 2px solid #fff;
+  border-radius: 9px;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.664);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3 ease;
+  align-items: center;
+}
+.btn:hover {
+  color: black;
+  background: #fff;
+}
+
+.features-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.features-section .feature-image {
+  height: 50vh;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feature-image {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+  margin-top: 20px;
+  background-image: url(Images/Arrivals/images.jpeg);
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.feat-btn {
+  border: 2px solid;
+  height: 10vh;
+  width: 40%;
+  border-radius: 9px;
+  background: gold;
+  color: #635b5baa;
+  border-color: transparent;
+  align-self: center;
+  padding: 20px 40px;
+}
+
+@media screen and (max-width: 800px) {
+}
+
+/* 
+@keyframes slideup {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes slidedown {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+} */
